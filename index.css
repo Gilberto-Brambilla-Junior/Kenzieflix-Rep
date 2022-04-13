@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Poppins:wght@100&display=swap');
+
+.container{
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    border: 1px solid #000000;
+    background: #414146;
+    flex-wrap: wrap;
+    background: #121214;
+    position: relative;
+}
+
+.kenzieflix{
+    position:absolute;
+    top:42px;
+    left: 517px;
+}
+.quem{
+    position: absolute;
+    left: 464px;
+    top: 183px;
+    color: white;
+    width: 334px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: 'IBM Plex Sans';
+}
+.sub_container{
+    display: flex;
+    width: 718px;
+    height: 194px;
+    margin-left:272px;
+    margin-top: 286px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.nomeUm{
+    margin-left: 63px;
+}
+.nomeDois{
+    margin-left: 50.5px;
+}
+.nomeTres{
+    margin-left: 64px;
+} 
+.nomeQuatro{
+    margin-left: 29.5px;
+}
+/**
+.nome_container{
+    display: flex;
+    height: 34px;
+    width: 718px ;
+    top: 446px;
+    left:272px;
+    flex-wrap: wrap;
+    color: white;
+    position: absolute;
+    justify-content: space-between;
+    align-items: flex-end;
+}**/
+
+.boxUm, .boxDois, .boxTres, .boxQuatro{
+    height: 194px;
+    width: 160px;
+    border-radius: 8px;
+    color: white;
+}
+.boxUm:hover, .boxDois:hover, .boxTres:hover, .boxQuatro:hover, .gerenciar_perfis:hover{
+    border: 2px solid blueviolet;
+    border-radius: 0px;
+    text-decoration: underline blueviolet 2px solid;
+}
+.gerenciar_perfis{
+    display: flex;
+    margin-top: 582px;
+    margin-left: 528px;
+    margin-right: 546px;
+    margin-bottom: 88px;
+    background: #121214;
+    border: 1px solid white;
+    color: white;
+    width: 206px;
+    height: 50px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
